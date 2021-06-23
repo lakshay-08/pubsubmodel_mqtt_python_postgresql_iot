@@ -4,7 +4,7 @@ An Example of MQTT publish and subscribe Model in python and adding the data to 
 From publish file random data will be gerated for two topics and from the subscribe file subscription to a topic will be made then the data will be added to a database mydb to table wich contains unique id time of data topic and the payload.
  
 
-##Requirements: 
+## Requirements: 
 1. Python 3
    1. paho-mqtt
    2. psycopg2
