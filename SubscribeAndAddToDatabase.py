@@ -80,8 +80,6 @@ def create_database_and_table():
 
 
 def main():
-    help(add_data_to_db)
-    help(on_message_print_add_to_db)
     create_database_and_table()
     subscribe.callback(on_message_print_add_to_db, "sensor/test/room_temp", hostname="localhost")
 
