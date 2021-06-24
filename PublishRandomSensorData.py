@@ -19,3 +19,6 @@ def generate_sensor_data():
 
 def main():
     generate_sensor_data()
+
+if __name__ == "__main__":
+    main()
